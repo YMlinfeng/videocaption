@@ -1,0 +1,133 @@
+root@autodl-container-ab9142bcf9-5f329a19:~/autodl-tmp/EPAN# tree -L 3
+.
+├── 28416ade-92e7-4c29-8fb3-8e6255ee4e18.zip
+├── EmVidCap-20251103T093255Z-1-001.zip
+├── EmVidCap-20251103T093255Z-1-002.zip
+├── EmotionEval
+│   ├── 179_words.txt
+│   ├── 34_emotion.txt
+│   ├── __pycache__
+│   │   ├── getEmationVocab.cpython-310.pyc
+│   │   ├── getRefEmotion.cpython-310.pyc
+│   │   └── getResult.cpython-310.pyc
+│   ├── getEmationVocab.py
+│   ├── getRefEmotion.py
+│   ├── getResult.py
+│   ├── pycocoevalcap
+│   │   ├── bleu
+│   │   ├── cider
+│   │   ├── eval.py
+│   │   ├── eval_spice.py
+│   │   ├── meteor
+│   │   ├── rouge
+│   │   ├── spice
+│   │   ├── tokenizer
+│   │   └── wmd
+│   └── sentiment-words-E
+│       ├── acceptable.txt
+│       ├── amaze.txt
+│       ├── anger.txt
+│       ├── annoyance.txt
+│       ├── anticipation.txt
+│       ├── beauty.txt
+│       ├── bore.txt
+│       ├── calm.txt
+│       ├── cleverness.txt
+│       ├── disappoint.txt
+│       ├── disgust.txt
+│       ├── ecstatic.txt
+│       ├── fear.txt
+│       ├── grief.txt
+│       ├── guilt.txt
+│       ├── hate.txt
+│       ├── hope.txt
+│       ├── interest.txt
+│       ├── jealous.txt
+│       ├── joy.txt
+│       ├── love.txt
+│       ├── optimistic.txt
+│       ├── pensiveness.txt
+│       ├── pessimism.txt
+│       ├── proud.txt
+│       ├── rage.txt
+│       ├── respect.txt
+│       ├── sadness.txt
+│       ├── shy.txt
+│       ├── surprise.txt
+│       ├── terrible.txt
+│       ├── trust.txt
+│       ├── ugliness.txt
+│       └── worry.txt
+├── MSVD-20251103T090630Z-1-001.zip
+├── MSVD-20251103T090630Z-1-002.zip
+├── README.md
+├── __pycache__
+│   ├── config.cpython-310.pyc
+│   └── utils.cpython-310.pyc
+├── config.py
+├── data
+│   ├── EmVidCap
+│   │   ├── 3DResNext101_test.hdf5
+│   │   ├── 3DResNext101_train.hdf5
+│   │   ├── ResNet101_test.hdf5
+│   │   ├── ResNet101_train.hdf5
+│   │   ├── clip_test.hdf5
+│   │   └── clip_train.hdf5
+│   ├── EmVidCap-L
+│   │   ├── EmVideo_test_captions.csv
+│   │   └── EmVideo_trainval_captions.csv
+│   ├── EmVidCap-S
+│   │   ├── EmVideo_test_captions.csv
+│   │   └── EmVideo_trainval_captions.csv
+│   ├── EmVidCap1.0
+│   │   ├── Comparable_models
+│   │   ├── FT_combine
+│   │   ├── FT_v1
+│   │   ├── README.txt
+│   │   └── code_preprocess
+│   ├── Embeddings
+│   │   └── GloVe
+│   └── MSVD
+│       ├── MSVD
+│       ├── metadata
+│       └── youtube_mapping.txt
+├── loader
+│   ├── MSVD.py
+│   ├── __pycache__
+│   │   ├── MSVD.cpython-310.pyc
+│   │   ├── data_loader.cpython-310.pyc
+│   │   └── transform.cpython-310.pyc
+│   ├── data_loader.py
+│   └── transform.py
+├── logs
+│   └── EmVideo
+│       ├── events.out.tfevents.1762160654.autodl-container-0106458c66-265c9237
+│       ├── events.out.tfevents.1762171948.autodl-container-0106458c66-265c9237
+│       ├── events.out.tfevents.1762172357.autodl-container-0106458c66-265c9237
+│       ├── events.out.tfevents.1762172943.autodl-container-0106458c66-265c9237
+│       ├── events.out.tfevents.1763633392.autodl-container-ab9142bcf9-5f329a19
+│       ├── events.out.tfevents.1763636297.autodl-container-ab9142bcf9-5f329a19
+│       └── logs.csv
+├── main.py
+├── models
+│   ├── __pycache__
+│   │   ├── attention.cpython-310.pyc
+│   │   ├── decoder.cpython-310.pyc
+│   │   ├── emotion_captioning_network.cpython-310.pyc
+│   │   └── visual_encoder.cpython-310.pyc
+│   ├── attention.py
+│   ├── decoder.py
+│   ├── emotion_captioning_network.py
+│   ├── transformer
+│   │   ├── Constants.py
+│   │   ├── Layers.py
+│   │   ├── Models.py
+│   │   ├── Modules.py
+│   │   ├── SubLayers.py
+│   │   └── __pycache__
+│   └── visual_encoder.py
+├── requirements.txt
+├── results
+│   └── EmVideo
+├── tree.txt
+└── utils.py

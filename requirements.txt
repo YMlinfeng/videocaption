@@ -1,0 +1,27 @@
+# TensorBoard 可视化工具
+tensorboardX>=2.4
+
+# 数据处理与科学计算
+numpy
+scipy
+h5py
+scikit-learn
+
+# 文本处理
+nltk
+spacy
+
+# tqdm 进度条
+tqdm
+
+# 配置管理与可选模型支持
+omegaconf
+
+# 其他可能依赖
+opencv-python
+transformers==4.37.0
+
+pandas
+gensim
+seaborn
+ipdb
